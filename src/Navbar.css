@@ -1,18 +1,35 @@
 .Navbar {
     display: flex;
+    flex-direction: column;
+}
+
+.nav-container {
+    display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     padding-left: 1rem;
     padding-right: 1rem;
+    justify-content: space-between;
 }
 
-
-.nav-labels {
+.nav-icons {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
+    width: 21rem;
 }
 
-.nav-labels h3 {
+.nav-icon {
+    align-items: center;
+}
+
+.nav-label {
     font-weight: 200;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    width: 7rem;
+    padding-left: 2rem;
 }
