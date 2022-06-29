@@ -1,0 +1,24 @@
+.Feature {
+    height: 21rem;
+    padding: 7rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Feature img {
+    background-color: transparent;
+}
+
+.feature-text h1{
+    text-align: left;
+    font-weight: 600;
+    font-size: 60px;
+}
+
+.feature-text h3{
+    text-align: left;
+    font-size: 30px;
+    font-weight: 500;
+}

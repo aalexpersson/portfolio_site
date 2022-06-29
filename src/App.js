@@ -1,19 +1,15 @@
 import React from 'react';
-import Typewriter from 'typewriter-effect';
-import Navbar from './Navbar'
 import './App.css';
+import Navbar from './Navbar'
+import Feature from './Feature' 
+import About from './About'
 
 function App() {
   return (
     <div className='App'>
       <Navbar />
-      <h1>
-        <Typewriter
-          onInit={(typewriter) => {
-            typewriter.typeString("I'm Alexander Persson").start()
-          }}
-        />
-      </h1>
+      <Feature />
+      <About />
     </div>
   );
 }

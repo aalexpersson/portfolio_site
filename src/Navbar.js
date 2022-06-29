@@ -27,10 +27,10 @@ export default function Navbar() {
           <div className='social-icons'>
               <SocialMediaIconsReact borderColor="rgba(0,0,0,0)" borderWidth="0" 
               borderStyle="solid" icon="linkedin" iconColor="rgba(10,3,15,1)" 
-              backgroundColor="rgba(158,1,247,1)" iconSize="7" roundness="6%" 
+              backgroundColor="#9E01F7" iconSize="7" roundness="6%" 
               url="https://www.linkedin.com/in/alexander-persson-147345231/" size="34" />
               <SocialMediaIconsReact borderColor="rgba(0,0,0,0)" borderWidth="0" 
-              borderStyle="solid" icon="github" iconColor="rgba(158,1,247,1)" 
+              borderStyle="solid" icon="github" iconColor="#9E01F7" 
               backgroundColor="rgba(10,3,15,1)" iconSize="10" roundness="50%" 
               url="https://github.com/aalexpersson" size="36" />
           </div>
