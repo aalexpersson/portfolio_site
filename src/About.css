@@ -1,0 +1,11 @@
+.About {
+    width: 70rem;
+    margin: 10rem;
+    line-height: 160%;
+    text-align: center;
+}
+
+.about-text {
+    text-align: left;
+    padding: 1rem;
+}

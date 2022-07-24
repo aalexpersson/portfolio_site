@@ -17,8 +17,10 @@ export default function Feature() {
                   />
           </h3>
         </div>
-        <img src={developer} alt=''></img>
-        <a href="https://www.freepik.com/psd/programmer-code">Programmer code psd created by Graphue - www.freepik.com</a>
+        <div className='feature-graphic'>
+          <img src={developer} alt='' width={485} height={400}></img>
+           {/* <a href="https://www.freepik.com/psd/programmer-code">Programmer code psd created by Graphue - www.freepik.com</a> */}
+        </div>
     </div>
   )
 }

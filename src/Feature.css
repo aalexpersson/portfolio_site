@@ -7,10 +7,6 @@
     align-items: center;
 }
 
-.Feature img {
-    background-color: transparent;
-}
-
 .feature-text h1{
     text-align: left;
     font-weight: 600;

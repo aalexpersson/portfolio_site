@@ -1,0 +1,68 @@
+.Skills h1{
+    text-align: center;
+    padding: 3rem;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.box {
+    position: relative;
+    width: 600px;
+    height: 500px;
+    background: rgba(0, 0, 0, 0.75);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.box::after {
+    content: '';
+    position: absolute;
+    width: 800px;
+    height: 900px;
+    background-image: conic-gradient(transparent, transparent, 
+    transparent, #9E01F7);
+    animation: animate 10s linear infinite;
+    animation-delay: -5s;
+}
+
+.box::before {
+    content: '';
+    position: absolute;
+    width: 800px;
+    height: 900px;
+    background-image: conic-gradient(transparent, transparent, 
+    transparent, #9E01F7);
+    animation: animate 10s linear infinite;
+}
+
+@keyframes animate {
+    0%{
+        transform: rotate(0deg);
+    }
+
+    100%{
+        transform: rotate(360deg);
+    }
+}
+
+.box span {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2rem;
+    position: absolute;
+    inset: 5px;
+    border-radius: 16px;
+    z-index: 1;
+    background-color: #0e0514;
+}
+
+.box-item {
+    text-align: center;
+}
